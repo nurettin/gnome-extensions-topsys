@@ -1,0 +1,5 @@
+extension/topsys@nurett.in/schemas/gschemas.compiled
+*.shell-extension.zip
+__pycache__/
+*.pyc
+.venv/

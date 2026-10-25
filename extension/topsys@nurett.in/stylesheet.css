@@ -1,0 +1,15 @@
+.topsys-pending {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.topsys-up {
+    color: #99ff99;
+}
+
+.topsys-degraded {
+    color: #ffd966;
+}
+
+.topsys-down {
+    color: #ff7373;
+}

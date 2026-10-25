@@ -1,0 +1,9 @@
+{
+  "uuid": "topsys@nurett.in",
+  "name": "TopSys Unit Monitor",
+  "description": "systemd unit status in the GNOME top bar, click to stop or start a unit.",
+  "shell-version": ["50"],
+  "url": "https://github.com/nurettin/gnome-extensions-topsys",
+  "settings-schema": "in.nurett.topsys",
+  "gettext-domain": "topsys"
+}

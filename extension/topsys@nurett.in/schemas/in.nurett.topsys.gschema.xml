@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="in.nurett.topsys" path="/in/nurett/topsys/">
+    <key name="units" type="a{sas}">
+      <default>{}</default>
+      <summary>Units to show, each mapped to a probe command</summary>
+      <description>The probe runs while the unit is active; a non-zero exit marks it degraded. An empty probe leaves the status to systemd alone.</description>
+    </key>
+    <key name="probe-interval-s" type="i">
+      <default>10</default>
+      <range min="2" max="600"/>
+      <summary>Seconds between probes of an active unit</summary>
+    </key>
+  </schema>
+</schemalist>
